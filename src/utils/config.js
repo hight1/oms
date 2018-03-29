@@ -1,6 +1,6 @@
 const APIV1 = '/api/v1'
 const APIV2 = '/api/v2'
-const apiPrefix = 'http://114.55.143.174:9016'
+const apiPrefix = 'http://192.168.1.66:9016'
 module.exports = {
   name: '9K运营管理系统',
   prefix: '9koms',
@@ -9,7 +9,7 @@ module.exports = {
   iconFontCSS: './iconfont.css',
   iconFontJS: './iconfont.js',
   YQL: ['http://www.zuimeitianqi.com'],
-  CORS: ['http://114.55.143.174:9016', 'http://query.yahooapis.com', 'http://116.62.107.223:9017'],
+  CORS: ['http://192.168.1.66:9016', 'http://query.yahooapis.com', 'http://116.62.107.223:9017'],
   openPages: ['/login'],
   env: 'test',
   api: {
